@@ -1,0 +1,67 @@
+#map {
+    top: 20px;
+    width: 50%;
+    height: 300px;
+}
+
+.float {
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 40px;
+    right: 40px;
+    background-color: #25d366;
+    color: #FFF;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 36px;
+    box-shadow: 2px 2px 3px #999;
+    z-index: 100;
+}
+
+.my-float {
+    margin-top: 16px;
+}
+
+#fotoInicial {
+    margin: 0 auto
+}
+
+#firstTitle {
+    color: #D7909E;
+    font-size: 6rem;
+    font-family: 'Canter Bold'
+}
+
+.accordion-body {
+    font-size: small
+}
+
+.accordion-button {
+    background-color: #EDCCA4;
+}
+
+#imgCarouselUp {
+    height: 300px;
+    object-fit: cover
+}
+
+#imgCarouselDown {
+    height: 200px;
+    object-fit: cover
+}
+
+@font-face {
+    font-family: Gothic Regular;
+    src: url(GothicRegular.ttf);
+}
+
+@font-face {
+    font-family: Canter Bold;
+    src: url(CanterBold.otf);
+}
+
+body {
+    background-color: lightgray;
+    font-family: 'Gothic Regular';
+}
